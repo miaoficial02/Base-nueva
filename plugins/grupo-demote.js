@@ -11,7 +11,7 @@ let handler = async (m, { conn, isAdmin, isBotAdmin }) => {
 };
 
 handler.help = ['demote @usuario'];
-handler.tags = ['admin'];
+handler.tags = ['grupo'];
 handler.command = /^demote$/i;
 handler.group = true;
 handler.admin = true;
