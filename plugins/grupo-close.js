@@ -8,7 +8,7 @@ let handler = async (m, { conn, isAdmin, isBotAdmin }) => {
 };
 
 handler.help = ['close'];
-handler.tags = ['admin'];
+handler.tags = ['grupo'];
 handler.command = /^close$/i;
 handler.group = true;
 handler.admin = true;
