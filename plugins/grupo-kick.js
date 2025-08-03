@@ -11,7 +11,7 @@ let handler = async (m, { conn, isAdmin, isBotAdmin, text }) => {
 };
 
 handler.help = ['kick @usuario'];
-handler.tags = ['admin'];
+handler.tags = ['grupo'];
 handler.command = /^kick$/i;
 handler.group = true;
 handler.admin = true;
